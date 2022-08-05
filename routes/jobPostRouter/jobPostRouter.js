@@ -29,7 +29,6 @@ async function run() {
             .limit(10)
             .toArray();
         } else {
-          console.log(page);
           jobs = await cursor.limit(10).toArray();
         }
       }
